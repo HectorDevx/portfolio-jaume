@@ -2,9 +2,14 @@
 @import "./header.css";
 @import "./button-icon.css";
 @import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./projects.css";
+@import "./testimony.css";
 
 :root {
   --fontBase: "Poppins", sans-serif;
+  --secondaryFont: "Oxygen", sans-serif;
   --headline1: bold 95px/154px var(--fontBase);
   --headline2: bold 59px/95px var(--fontBase);
   --headline3: bold 48px/77px var(--fontBase);
@@ -30,4 +35,5 @@ body {
   min-block-size: 100vh;
   font: var(--body1);
   color: var(--primary);
+  margin: 0;
 }

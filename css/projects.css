@@ -1,0 +1,22 @@
+.projects-text {
+  padding: 20% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.projects-text span {
+  font-family: var(--secondaryFont);
+  font-weight: 300;
+  text-align: center;
+  font-size: 34px;
+  line-height: 55px;
+  color: var(--primary);
+}
+
+.projects-text h5 {
+  margin: 0;
+  font: var(--headline5);
+}

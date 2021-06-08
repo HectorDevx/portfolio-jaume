@@ -1,6 +1,17 @@
 .header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}
+
+.header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   block-size: 80px;
+  max-inline-size: 1000px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  margin: auto;
 }

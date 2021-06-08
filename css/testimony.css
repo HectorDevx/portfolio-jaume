@@ -1,0 +1,36 @@
+.testimony-wrapper {
+  padding: 4px;
+  background: radial-gradient(
+    76.35% 76.35% at 0% 0%,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 24px;
+}
+
+.testimony {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(40px);
+  border-radius: 22px;
+  gap: 24px;
+}
+
+.testimony span {
+  font-family: var(--secondaryFont);
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 55px;
+  text-align: center;
+  color: var(--primary);
+}
+
+.testimony h5 {
+  margin: 0;
+  font: var(--headline5);
+  opacity: 50%;
+}

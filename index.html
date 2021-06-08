@@ -11,48 +11,101 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header">
-      <img src="./img/LOGO.png" width="70" height="20" alt="Logo Portafolio" />
-      <button class="btn">Curriculum</button>
-    </header>
-
-    <section class="hero">
       <div>
         <img
-          class="hero-img"
-          src="./img/user.png"
-          width="338"
-          height="330"
-          alt="Persona"
+        src="./img/LOGO.png"
+        width="70"
+        height="20"
+        alt="Logo Portafolio"
         />
-      </div>
-      <div class="hero-description">
-        <h1>
-          <span>¡Hola a todos!</span>
-          <span>Soy Jaume</span>
-        </h1>
-        <p>
-          Frontend Developer que le encanta implementar diseños que inspiran y
-          atraen a las personas.
-        </p>
-        <div class="hero-social">
-          <a class="btn-icon" href="tel:5555555555"
-            ><img src="./icons/icon-phone.svg" alt=""
-          /></a>
-          <a class="btn-icon" href="tel:5555555555"
-            ><img src="./icons/icon-twitter_squared.svg" alt=""
-          /></a>
-          <a class="btn-icon" href="tel:5555555555"
-            ><img src="./icons/icon-instagram.svg" alt=""
-          /></a>
-          <a class="btn-icon" href="tel:5555555555"
-            ><img src="./icons/icon-important_mail.svg" alt=""
-          /></a>
+        <nav class="menu">
+          <ul>
+            <li>
+              <a class="active@ href="#main">Hola</a>
+            </li>
+          <li>
+            <a href="#project">Proyectos</a>
+          </li>
+          <li>
+            <a href="#contact">Hablemos</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn">Curriculum</button>
+    </div>
+    </header>
+    <div class="wrapper">
+
+      <section class="hero" id="main">
+        <div>
+          <img
+            class="hero-img"
+            src="./img/user.png"
+            width="338"
+            height="330"
+            alt="Persona"
+          />
         </div>
-        <a href="#" class="btn">Descargar curriculum</a>
-      </div>
-    </section>
+        <div class="hero-description">
+          <h1>
+            <span>¡Hola a todos!</span>
+            <span>Soy Jaume</span>
+          </h1>
+          <p>
+            Frontend Developer que le encanta implementar diseños que inspiran y
+            atraen a las personas.
+          </p>
+          <div class="hero-social">
+            <a class="btn-icon" href="tel:5555555555"
+              ><img src="./icons/icon-phone.svg" alt=""
+            /></a>
+            <a class="btn-icon" href="tel:5555555555"
+              ><img src="./icons/icon-twitter_squared.svg" alt=""
+            /></a>
+            <a class="btn-icon" href="tel:5555555555"
+              ><img src="./icons/icon-instagram.svg" alt=""
+            /></a>
+            <a class="btn-icon" href="tel:5555555555"
+              ><img src="./icons/icon-important_mail.svg" alt=""
+            /></a>
+          </div>
+          <a href="#" class="btn">Descargar curriculum</a>
+        </div>
+      </section>
+
+      <section class="projects-text" id="projects">
+        <span>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</span>
+        <h5>Aquí hay algunos que me gustaría compartir.</h5>
+        <img src="./img/arrow-down.png" alt="">
+      </section>
+
+      <section class="testimony-wrapper">
+        <div class="testimony">
+          <img src="./img/testimony.png" alt="">
+          <span>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</span>
+          <h5>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</h5>
+        </div>
+        </section>
+
+      <section class="testimony-wrapper">
+        <div class="testimony">
+          <img src="./img/testimony2.png" alt="">
+          <span>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</span>
+          <h5>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</h5>
+        </div>
+        </section>
+
+      <section class="testimony-wrapper">
+        <div class="testimony">
+          <img src="./img/testimony3.png" alt="">
+          <span>""Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</span>
+          <h5>MARCO CORTEZ / NETNET</h5>
+        </div>
+        </section>
+    </div>
   </body>
 </html>
