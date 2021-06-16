@@ -4,16 +4,14 @@
 
 .hero-img {
   text-align: center;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 .hero-description {
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
-
-.hero-social {
-  padding-block-end: 24px;
 }
 
 .hero h1 {
